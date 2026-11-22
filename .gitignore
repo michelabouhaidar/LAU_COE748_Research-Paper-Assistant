@@ -1,0 +1,31 @@
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Generated runtime stores (spec section 17.1)
+data/
+chroma/
+reports/
+logs/
+*.log
+
+# Local editor, OS, and agent files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/settings.local.json
